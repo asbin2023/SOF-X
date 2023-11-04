@@ -10,9 +10,11 @@
     margin: 0px;
     font-family: Nunito, sans-serif;
 }
-button{
+
+button {
     cursor: pointer;
 }
+
 #first-content {
     background-image: url('https://studyfinds.org/wp-content/uploads/2023/09/lt6ge86vyaa.jpg');
     background-size: cover;
@@ -23,6 +25,7 @@ button{
     border: none;
     overflow: hidden;
     border-radius: 0 0 15% 15%;
+    width: 100%;
 
 }
 
@@ -54,10 +57,11 @@ nav div a {
     border: 3px solid transparent;
 }
 
-nav div a:hover{
-  border-top-color: rgb(255, 255, 255);
+nav div a:hover {
+    border-top-color: rgb(255, 255, 255);
 
 }
+
 nav a {
     text-decoration: none;
     color: white;
@@ -74,7 +78,8 @@ nav button {
 
 }
 
-nav button:hover, #first .btn-1:hover{
+nav button:hover,
+#first .btn-1:hover {
     background-color: white;
     color: #B85C38;
 }
@@ -93,7 +98,7 @@ nav #title {
     justify-content: center;
     padding-bottom: 200px;
     gap: 10px;
-    
+
 
 
 }
@@ -120,96 +125,159 @@ nav #title {
     border-radius: 40px;
     border: 1px solid white;
 
-    
+
 }
 
-#two-buttons .btn-1{
+#two-buttons .btn-1 {
     background-color: #B85C38;
     border: none;
 }
 
-#two-buttons .btn-2:hover{
+#two-buttons .btn-2:hover {
     color: #000000;
     background-color: white;
 }
 
-button{
+button {
     font-weight: 700;
 }
 
-@media screen and (max-width: 1000px){
-   
 
-    nav #title{
+
+#second img {
+    width: 100px;
+}
+
+#second h2 {
+    font-size: 49px;
+
+}
+
+#second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+    padding: 40px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+#second #six div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+
+}
+
+#six div h3 {
+    color: #B85C38;
+}
+
+#six div p{
+    color: gray;
+}
+
+#six {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    nav #title {
         font-size: 24px;
-        
+
     }
-    nav div a{
+
+    nav div a {
         font-size: 15px;
     }
-    nav div{
+
+    nav div {
         gap: 10px
     }
-        #first h1 {
-            font-size: 33px;
-        }
+
+    #first h1 {
+        font-size: 33px;
+    }
 }
 
 @media screen and (max-width: 700px) {
-    nav div{
+    nav div {
         display: none;
     }
-    nav{
+
+    nav {
         gap: 0px;
         justify-content: space-between;
-        padding-left: 30px ;
-        padding-right: 30px ;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
-    nav button{
+    nav button {
         font-size: 14px;
     }
 
-    #first #two-buttons{
+    #first #two-buttons {
         margin-top: 30px;
 
     }
- 
-    #two-buttons button{
+
+    #two-buttons button {
         font-size: 14px;
         padding: 7px 12px;
     }
 
-    #first{
+    #first {
         padding-left: 20px;
         padding-right: 20px;
         gap: 20px;
         padding-bottom: 100px;
-        
-       
     }
 
-    #first h1{
+    #first h1 {
         font-size: 37px;
         padding: 0 30px 0 30px;
     }
-    #first p{
-            padding: 0 20px 0 20px;
-            font-weight: bold;
+
+    #first p {
+        padding: 0 20px 0 20px;
+        font-weight: bold;
+    }
+
+    #second h2 {
+        font-size: 30px;
+    }
+
+    #second {
+        gap: 40px;
+    }
+
+    #second #six div {
+
+
+        padding: 8px;
+
     }
 }
 
 @media screen and (max-width: 500px) {
-  
- 
-        
-    nav button{
+    nav button {
         font-size: 14px;
         padding: 7px 16px;
     }
-
-  
- 
 
     #two-buttons button {
         font-size: 13px;
@@ -219,6 +287,5 @@ button{
     #first {
         padding-left: 20px;
         padding-right: 20px;
-        
     }
 }
