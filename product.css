@@ -12,7 +12,7 @@
 }
 
 button {
-    cursor: pointer;
+    cursor: pointer
 }
 
 #first-content {
@@ -21,7 +21,6 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    width: 100%;
     border: none;
     overflow: hidden;
     border-radius: 0 0 15% 15%;
@@ -31,6 +30,7 @@ button {
 
 #content {
     height: 100%;
+
     display: flex;
     flex-direction: column;
     background-color: rgba(32, 25, 38, 0.489);
@@ -157,10 +157,9 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
-    margin-top: 20px;
+    gap: 60px;
+    margin-top: 30px;
     padding: 40px;
-    margin-bottom: 100px;
     width: 100%;
 }
 
@@ -169,8 +168,10 @@ button {
     flex-direction: column;
     width: 300px;
     align-items: center;
-    gap: 20px;
-    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+
 
 
 }
@@ -179,18 +180,165 @@ button {
     color: #B85C38;
 }
 
-#six div p{
+#six div p {
     color: gray;
 }
 
 #six {
     display: flex;
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 90px;
     max-width: 1200px;
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+
+#third {
+    background: rgba(235, 203, 154, 0.842);
+    margin-bottom: 300px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 90px;
+    max-height: 600px;
+    padding-right: 20px;
+
+
+}
+
+#third img {
+    border-radius: 0 200px 200px 0;
+    max-height: 370px;
+
+
+
+}
+
+#third div h3 {
+    color: #5C3D2E;
+    font-size: 33px;
+}
+
+#third div p {
+    color: #5C3D2E;
+    max-width: 500px;
+}
+
+#quotes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#third-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 650px;
+    padding-right: 20px;
+
+
+}
+
+#person {
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    #third {
+        margin: 30px 50px;
+    }
+
+    #third div h3 {
+
+        font-size: 24px;
+    }
+
+    #third div p {
+        font-size: 13px;
+    }
+
+    #third img {
+        max-height: 300px;
+    }
+
+    #third {
+        gap: 20px;
+    }
+
+    #third-div {
+
+        padding: 30px;
+        padding-left: 0;
+        max-width: 100%;
+        gap: 20px;
+
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 990px) {
+    #third {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    #space {
+        display: none;
+    }
+
+    #person {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0px;
+        padding: 0px;
+        border-right: 4px solid #493e06a4;
+        margin-right: 20px;
+        padding-right: 20px;
+
+
+    }
+
+    #person img {
+        width: 100%;
+        max-width: 90px;
+
+    }
+
+    #third-div {
+
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 20px 0px;
+        margin: 0px;
+        gap: 0px;
+
+
+    }
+
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -262,15 +410,12 @@ button {
     }
 
     #second {
-        gap: 40px;
+        gap: 0px;
+        padding: 10px;
     }
 
-    #second #six div {
-
-
-        padding: 8px;
-
-    }
+   
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -287,5 +432,44 @@ button {
     #first {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    #six {
+        gap: 30px;
+        padding: 0px;
+
+    }
+
+    #second #six div {
+        gap: 10px;
+        padding: 30px;
+    }
+
+    #second {
+        gap: 10px;
+    }
+
+    #person {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        padding-bottom: 20px;
+        border-bottom: 4px solid #493e06a4;
+        width: 100%;
+    }
+
+    #person div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #third-div {
+        flex-direction: column-reverse;
+        padding: 10px;
+        margin: 0px;
+        gap: 20px;
     }
 }
