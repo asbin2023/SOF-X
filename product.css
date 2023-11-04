@@ -176,6 +176,12 @@ button {
 
 }
 
+#lorem {
+    color: gray;
+    max-width: 900px;
+    padding: 0px 20px;
+}
+
 #six div h3 {
     color: #B85C38;
 }
@@ -360,6 +366,10 @@ button {
     #first h1 {
         font-size: 33px;
     }
+
+    #person p {
+        font-weight: bold;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -410,12 +420,20 @@ button {
     }
 
     #second {
-        gap: 0px;
+        gap: 30px;
         padding: 10px;
+        margin-top: 50px;
     }
 
-   
-    
+    #lorem {
+        margin: 30px 0px;
+        font-size: 14px;
+    }
+
+
+
+
+
 }
 
 @media screen and (max-width: 500px) {
