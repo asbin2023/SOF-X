@@ -9,6 +9,7 @@
     padding: 0px;
     margin: 0px;
     font-family: Nunito, sans-serif;
+    scroll-behavior: smooth;
 }
 
 button {
@@ -65,6 +66,7 @@ nav div a:hover {
 nav a {
     text-decoration: none;
     color: white;
+
 }
 
 nav button {
@@ -166,7 +168,7 @@ button {
 #second #six div {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    max-width: 300px;
     align-items: center;
     gap: 10px;
     justify-content: center;
@@ -305,7 +307,7 @@ img {
 }
 
 #four p {
-    font-size: 12px;
+    font-size: 13px;
     color: gray;
 }
 
@@ -313,11 +315,96 @@ img {
     color: #B85C38;
     font-size: 14px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #four img {
     border-radius: 10px;
 }
+
+#blog h2 {
+    font-size: 38px;
+}
+
+#blog p {
+    color: gray;
+}
+
+#blog {
+
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    max-width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#blog button {
+    color: white;
+    background-color: #B85C38;
+    font-size: 15px;
+    padding: 9px 26px;
+    border-radius: 40px;
+    border: none;
+}
+
+#blog button:hover {
+    background-color: white;
+    color: #B85C38;
+    border: 1px solid;
+    border-color: #B85C38;
+}
+
+#lab,
+#deadline {
+    max-width: 250px;
+    cursor: pointer;
+
+    padding-bottom: 40px;
+    box-shadow: 1px 1px 5px 4px rgba(128, 128, 128, 0.408);
+}
+
+#five .read {
+    color: #B85C38;
+    font-weight: bold;
+}
+
+#lab div,
+#deadline div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#lab img,
+#deadline img {
+    width: 100%;
+}
+
+#five p {
+    color: gray;
+    font-size: 14px;
+}
+
+#five {
+    margin-bottom: 200px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: #F7F9FC;
+    padding: 30px 20px 40px 20px;
+    width: 100%;
+}
+
+#contains-two {
+    display: flex;
+    gap: 40px;
+}
+
+
 
 
 
@@ -402,6 +489,54 @@ img {
 
 }
 
+@media screen and (max-width: 1150px) {
+    #five {
+
+        flex-direction: column;
+        align-items: center;
+
+        margin-left: auto;
+        margin-right: auto;
+       
+    }
+
+
+
+    #contains-two {
+        width: 100%;
+        gap: 50px;
+        justify-content: center;
+
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+
+    nav #title {
+        font-size: 24px;
+
+    }
+
+    nav div a {
+        font-size: 15px;
+    }
+
+    nav div {
+        gap: 10px
+    }
+
+    #first h1 {
+        font-size: 33px;
+    }
+
+    #person p {
+        font-weight: bold;
+    }
+}
+
 @media screen and (max-width: 990px) {
     #third {
         flex-direction: column;
@@ -440,33 +575,6 @@ img {
 
 
     }
-
-
-}
-
-@media screen and (max-width: 1000px) {
-
-
-    nav #title {
-        font-size: 24px;
-
-    }
-
-    nav div a {
-        font-size: 15px;
-    }
-
-    nav div {
-        gap: 10px
-    }
-
-    #first h1 {
-        font-size: 33px;
-    }
-
-    #person p {
-        font-weight: bold;
-    }
 }
 
 @media screen and (max-width: 700px) {
@@ -504,16 +612,17 @@ img {
 
     #first h1 {
         font-size: 37px;
-        padding: 0 30px 0 30px;
+        padding: 10px;
+        padding-top: 20px;
     }
 
     #first p {
-        padding: 0 20px 0 20px;
+        
         font-weight: bold;
     }
 
     #second h2,
-    #four h2 {
+    #four h2, #blog h2 {
         font-size: 30px;
     }
 
@@ -526,6 +635,23 @@ img {
     #lorem {
         margin: 30px 0px;
         font-size: 14px;
+    }
+
+
+
+
+
+    #blog{
+        margin: 0px;
+        align-items: center;
+    }
+
+    #contains-two{
+        flex-direction: column;
+        padding: 20px;
+        padding-top: 0px;
+  
+        align-items: center;
     }
 
 
@@ -548,6 +674,8 @@ img {
     #first {
         padding-left: 20px;
         padding-right: 20px;
+     
+        gap: 30px;
     }
 
     #six {
@@ -563,6 +691,11 @@ img {
 
     #second {
         gap: 10px;
+    }
+
+    #second h2{
+        font-size: 30px;
+        padding: 0px 20px
     }
 
     #person {
@@ -581,11 +714,20 @@ img {
         align-items: center;
     }
 
+    #third{
+        margin: 20px;
+    }
+
 
     #third-div {
         flex-direction: column-reverse;
         padding: 10px;
         margin: 0px;
         gap: 20px;
+    }
+
+    #five {
+        margin: 0px;
+        margin-bottom: 30px;
     }
 }
