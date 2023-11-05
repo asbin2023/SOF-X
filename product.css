@@ -307,13 +307,13 @@ img {
 }
 
 #four p {
-    font-size: 13px;
+    font-size: 14px;
     color: gray;
 }
 
 #four .learn {
     color: #B85C38;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -389,7 +389,7 @@ img {
 }
 
 #five {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     margin-top: 70px;
     display: flex;
     justify-content: center;
@@ -404,7 +404,46 @@ img {
     gap: 40px;
 }
 
+#sixth img{
+   border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit:fill;
 
+}
+
+#sixth{
+    width: 100%;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+    flex-wrap: wrap;
+    gap: 50px;
+    row-gap: 60px;
+
+}
+
+#sixth div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    max-width: 300px;
+    padding: 30px;
+    padding-bottom: 60px;
+    gap: 29px;
+    box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.125);
+}
+
+#sixth .p1{
+    color: gray;
+}
+
+#sixth .p2{
+    font-weight: bold;
+    margin-top: 15px;
+}
 
 
 
@@ -433,7 +472,7 @@ img {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: 23px;
         padding: 10px;
 
 
@@ -497,7 +536,7 @@ img {
 
         margin-left: auto;
         margin-right: auto;
-       
+
     }
 
 
@@ -617,12 +656,13 @@ img {
     }
 
     #first p {
-        
+
         font-weight: bold;
     }
 
     #second h2,
-    #four h2, #blog h2 {
+    #four h2,
+    #blog h2 {
         font-size: 30px;
     }
 
@@ -641,16 +681,16 @@ img {
 
 
 
-    #blog{
+    #blog {
         margin: 0px;
         align-items: center;
     }
 
-    #contains-two{
+    #contains-two {
         flex-direction: column;
         padding: 20px;
         padding-top: 0px;
-  
+
         align-items: center;
     }
 
@@ -674,7 +714,7 @@ img {
     #first {
         padding-left: 20px;
         padding-right: 20px;
-     
+
         gap: 30px;
     }
 
@@ -693,7 +733,7 @@ img {
         gap: 10px;
     }
 
-    #second h2{
+    #second h2 {
         font-size: 30px;
         padding: 0px 20px
     }
@@ -714,7 +754,7 @@ img {
         align-items: center;
     }
 
-    #third{
+    #third {
         margin: 20px;
     }
 
