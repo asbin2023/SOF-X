@@ -6,7 +6,7 @@
   SOF X is a fictional product represented in a landing page format, designed and developed from scratch based on a Figma illustration.
 </p>
 <p>
-  <strong>Note:</strong> This project was created for fun and to improve my CSS skills.
+  <strong>Note:</strong> This project was created for fun and to improve my vanilla CSS skills.
 </p>
 
 Deployment link: <a href='https://asbin2023.github.io/SOF-X/' target='_blank'> https://asbin2023.github.io/SOF-X/ </a>
