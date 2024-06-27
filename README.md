@@ -13,7 +13,7 @@ Deployment link: <a href='https://asbin2023.github.io/SOF-X/' target='_blank'> h
 
 <p>Followed this figma illustration: https://www.figma.com/community/file/1015214062314519407/traunship-product-landing-page?searchSessionId=lxl3xrnu-81wzmy6ak7v</p>
 
-<hr/>
+<hr/> 
 
 <h2>
   Demo:
